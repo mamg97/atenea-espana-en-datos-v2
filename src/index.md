@@ -832,7 +832,7 @@ html {
     <a href="#empleo">Empleo</a>
     <a href="#vivienda">Vivienda</a>
     <a href="#estado">Sector público</a>
-    <a href="./finanzas-publicas">Dinero público</a>
+    <a href="./finanzas-publicas">Ingresos y gastos</a>
     <a href="#pensiones">Pensiones</a>
     <a href="#sociedad">Sociedad</a>
     <a href="#mundo">Mundo</a>
@@ -1506,7 +1506,7 @@ const sectionDefinitions = {
       "Deuda pública y algunos de los principales indicadores disponibles de gasto público.",
 
     action: {
-      label: "Explorar ingresos y gasto público →",
+      label: "Explorar ingresos y gastos públicos →",
       href: "./finanzas-publicas"
     },
 
@@ -2005,5 +2005,28 @@ for (const sectionId of sectionOrder) {
     renderMetricSection(sectionId)
   );
 }
+
+// Si llegamos desde otra página con un hash (p. ej. /#estado), el navegador
+// puede intentar desplazarse antes de que Observable haya creado la sección.
+// Repetimos el desplazamiento una vez renderizados todos los bloques dinámicos.
+function scrollToCurrentHash() {
+  const id = decodeURIComponent(window.location.hash.slice(1));
+  if (!id) return;
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      const target = document.getElementById(id);
+      if (target) {
+        target.scrollIntoView({
+          behavior: "auto",
+          block: "start"
+        });
+      }
+    });
+  });
+}
+
+scrollToCurrentHash();
+window.addEventListener("hashchange", scrollToCurrentHash);
 ```
 
