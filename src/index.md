@@ -357,10 +357,15 @@ html {
   color: var(--atenea-muted);
 
   font-size: 0.6rem;
+  line-height: 1.35;
 
-  white-space: nowrap;
+  /* La fuente es parte de la trazabilidad: permitimos hasta dos líneas
+     en vez de truncarla a una sola línea con puntos suspensivos. */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
   overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
 }
 
 .kpi-source a {

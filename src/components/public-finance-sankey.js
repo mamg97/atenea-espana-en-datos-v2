@@ -112,7 +112,9 @@ function downloadCsv(rows, filename) {
 }
 
 function makeRibbon(sx, sy, tx, ty, width) {
-  const w = Math.max(3, width);
+  // La anchura ya viene calculada con una única escala global.
+  // Solo imponemos 1 px para que ajustes técnicos muy pequeños sigan siendo clicables.
+  const w = Math.max(1, width);
   const mid = (sx + tx) / 2;
   const y1a = sy - w / 2;
   const y1b = sy + w / 2;
@@ -127,15 +129,24 @@ function makeRibbon(sx, sy, tx, ty, width) {
   ].join(" ");
 }
 
-function stackPorts(items, total, top, height) {
-  const scale = total ? height / total : 0;
-  let current = top;
+function stackPorts(items, scale, top, height) {
+  const widths = items.map(item => Math.max(1, number(item.value) * scale));
+  const bandsHeight = widths.reduce((sum, width) => sum + width, 0);
+  const remaining = Math.max(0, height - bandsHeight);
+  const gap = items.length > 1
+    ? Math.min(4, remaining / (items.length - 1))
+    : 0;
+  const occupied = bandsHeight + gap * Math.max(0, items.length - 1);
+
+  let current = top + Math.max(0, (height - occupied) / 2);
   const result = new Map();
-  for (const item of items) {
-    const width = Math.max(2.5, number(item.value) * scale);
+
+  items.forEach((item, index) => {
+    const width = widths[index];
     result.set(item.code, {center: current + width / 2, width});
-    current += width;
-  }
+    current += width + gap;
+  });
+
   return result;
 }
 
@@ -245,6 +256,15 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
     .pf-table th {text-align:left; padding:.45rem .5rem; background:#f0f3f6; color:var(--pf-navy); border-bottom:1px solid #cad2db;}
     .pf-table td {padding:.45rem .5rem; border-bottom:1px solid #eceff2; vertical-align:top;}
     .pf-table td.num, .pf-table th.num {text-align:right; white-space:nowrap;}
+    .pf-table-row-link {cursor:pointer;}
+    .pf-table-row-link:hover td {background:#f7f9fb;}
+    .pf-table-row-link:focus {outline:2px solid #b9c7d6; outline-offset:-2px;}
+    .pf-row-arrow {color:var(--pf-navy); font-weight:900; margin-left:.3rem;}
+    .pf-breadcrumb {
+      appearance:none; border:0; background:transparent; color:var(--pf-muted);
+      padding:0; margin:0 0 .55rem; font:inherit; font-size:.74rem; font-weight:750; cursor:pointer;
+    }
+    .pf-breadcrumb:hover {color:var(--pf-navy); text-decoration:underline;}
     .pf-detail-subtitle {font-size:.8rem; color:var(--pf-navy); margin:1rem 0 .25rem;}
     .pf-empty {padding:2rem; color:var(--pf-muted); text-align:center;}
     .pf-footnote {font-size:.72rem; color:var(--pf-muted); line-height:1.5; margin:.65rem .15rem 0;}
@@ -253,7 +273,7 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
     .pf-node-group {cursor:pointer;}
     .pf-node-group:hover .pf-node-box {stroke:#0b2447; stroke-width:2; filter:drop-shadow(0 2px 3px rgba(0,0,0,.12));}
     .pf-income .pf-node-box {fill:#edf5fb;}
-    .pf-adjust .pf-node-box {fill:#fff8e6; stroke:#d7ae4d; stroke-dasharray:5 3;}
+    .pf-adjust .pf-node-box {fill:#fbfaf7; stroke:#d7c79d; stroke-dasharray:4 3;}
     .pf-deficit .pf-node-box {fill:#fff2e7; stroke:#d48a49;}
     .pf-spend .pf-node-box {fill:#f6f2e8;}
     .pf-detail-node .pf-node-box {fill:#eef4ea;}
@@ -270,7 +290,7 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
     .pf-spend-link {fill:rgba(185,149,77,.30);}
     .pf-detail-link {fill:rgba(89,123,75,.33);}
     .pf-deficit-link {fill:rgba(212,138,73,.40);}
-    .pf-adjust-link {fill:rgba(215,174,77,.44);}
+    .pf-adjust-link {fill:rgba(170,148,104,.20);}
     @media (max-width: 900px) {
       .pf-chart {overflow:visible; padding-bottom:.6rem;}
       .pf-chart svg {width:100%; min-width:0;}
@@ -323,9 +343,9 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
 
   const badge = htmlEl("span", "pf-badge");
 
+  // Mientras solo exista un ejercicio completo, no mostramos un selector que no aporta nada.
+  if (years.length > 1) toolbar.append(yearLabel, yearSelect);
   toolbar.append(
-    yearLabel,
-    yearSelect,
     methodologyButton,
     spacer,
     badge,
@@ -393,9 +413,34 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
       const values = tax
         ? [row.subsector || row.sec_group, row.tax_figure, row.value_mill_eur, "—"]
         : [row.code, rowLabel(row), row.value, formatPct(row.value, parentTotal)];
+
+      // Las filas contables son navegables: permiten drill-down sin cerrar el drawer.
+      if (!tax) {
+        tr.className = "pf-table-row-link";
+        tr.tabIndex = 0;
+        tr.setAttribute("role", "button");
+        tr.setAttribute("aria-label", `Abrir ${rowLabel(row)}`);
+        tr.addEventListener("click", () => openDetail(row));
+        tr.addEventListener("keydown", event => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openDetail(row);
+          }
+        });
+      }
+
       values.forEach((value, index) => {
         const td = document.createElement("td");
-        td.textContent = index === 2 ? formatMillions(value) : text(value);
+        if (index === 2) {
+          td.textContent = formatMillions(value);
+        } else if (!tax && index === 1) {
+          td.append(document.createTextNode(text(value)));
+          const arrow = htmlEl("span", "pf-row-arrow");
+          arrow.textContent = "→";
+          td.append(arrow);
+        } else {
+          td.textContent = text(value);
+        }
         if (index >= 2) td.className = "num";
         tr.append(td);
       });
@@ -422,12 +467,23 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
     root.classList.add("is-detail-open");
     detail.replaceChildren();
 
+    const yearMap = rowMapForYear();
+    const parent = row.parent_code ? yearMap.get(row.parent_code) : null;
+
+    if (parent) {
+      const breadcrumb = htmlEl("button", "pf-breadcrumb");
+      breadcrumb.type = "button";
+      breadcrumb.textContent = `← ${rowLabel(parent)}`;
+      breadcrumb.addEventListener("click", () => openDetail(parent));
+      detail.append(breadcrumb);
+    }
+
     const title = htmlEl("h2", "pf-detail-title");
     title.textContent = rowLabel(row);
     detail.append(title);
 
-    const center = rowMapForYear().get("S13.GASTO");
-    const resources = rowMapForYear().get("S13.RECURSOS");
+    const center = yearMap.get("S13.GASTO");
+    const resources = yearMap.get("S13.RECURSOS");
     const referenceTotal = row.side.startsWith("ingreso")
       ? resources?.value || row.value
       : center?.value || row.value;
@@ -439,7 +495,6 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
         ? "100 % de los recursos"
         : `${formatPct(row.value, referenceTotal)} del ${row.side.startsWith("ingreso") ? "total de recursos" : "gasto público"}`;
 
-    const parent = row.parent_code ? rowMapForYear().get(row.parent_code) : null;
     const localShare = parent && !["S13.GASTO", "S13.RECURSOS"].includes(parent.code)
       ? ` · ${formatPct(row.value, parent.value)} de ${rowLabel(parent)}`
       : "";
@@ -607,7 +662,10 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
     });
     group.append(rect);
 
-    const lines = wrapText(rowLabel(row), width >= 350 ? 42 : 31, 2);
+    const displayLabel = row.is_vintage_adjustment
+      ? "Ajuste técnico de conciliación"
+      : rowLabel(row);
+    const lines = wrapText(displayLabel, width >= 350 ? 42 : 31, 2);
     lines.forEach((line, index) => {
       const label = svgEl("text", {
         x: x + 12,
@@ -715,12 +773,21 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
       expenseRows.map((row, index) => [row.code, rightY0 + index * (boxH + rightGap)])
     );
 
-    const portTop = 165;
-    const portHeight = 500;
-    const inPorts = stackPorts(leftItems, gasto.value, portTop, portHeight);
-    const outPorts = stackPorts(expenseRows, gasto.value, portTop, portHeight);
-    const leftScale = 54 / Math.max(...leftItems.map(d => d.value), 1);
-    const rightScale = 54 / Math.max(...expenseRows.map(d => d.value), 1);
+    // Una única escala de grosor para ambos lados. Así 1 M€ ocupa exactamente
+    // el mismo ancho visual tanto en ingresos como en gasto.
+    const centerY = 255;
+    const centerH = 235;
+    const maxRibbonWidth = 54;
+    const maxFlow = Math.max(
+      ...leftItems.map(d => d.value),
+      ...expenseRows.map(d => d.value),
+      1
+    );
+    const flowScale = maxRibbonWidth / maxFlow;
+    const portTop = centerY + 8;
+    const portHeight = centerH - 16;
+    const inPorts = stackPorts(leftItems, flowScale, portTop, portHeight);
+    const outPorts = stackPorts(expenseRows, flowScale, portTop, portHeight);
 
     // Ribbons are appended before nodes so boxes remain legible and clickable.
     for (const row of leftItems) {
@@ -738,7 +805,7 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
         sourceY,
         centerX,
         port.center,
-        Math.max(3, row.value * leftScale),
+        port.width,
         className
       );
     }
@@ -753,7 +820,7 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
         port.center,
         rightX,
         targetY,
-        Math.max(3, row.value * rightScale),
+        port.width,
         "pf-spend-link"
       );
     }
@@ -769,8 +836,6 @@ export function PublicFinanceExplorer(data, sources = [], taxFigures = [], optio
     addNode(svg, deficit, leftX, leftPos.get(deficit.code), leftW, boxH, "pf-deficit", gasto.value, "gasto");
 
     // Center.
-    const centerY = 255;
-    const centerH = 235;
     const centerGroup = svgEl("g", {class: "pf-node-group"});
     centerGroup.setAttribute("tabindex", "0");
     centerGroup.setAttribute("role", "button");
