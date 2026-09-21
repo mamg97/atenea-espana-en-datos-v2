@@ -1,0 +1,914 @@
+[
+  {
+    "path": "MIDAS_GIT/.DS_Store",
+    "bytes": 6148,
+    "tracked": true,
+    "sha256": "f9023a5a891336b358de069c052319bf2bea8fe537e89c7d5a4ceba661ff37cb"
+  },
+  {
+    "path": "MIDAS_GIT/Copia de API Alpha Vantage.ipynb",
+    "bytes": 47482,
+    "tracked": true,
+    "sha256": "b1c1f82385ec38d5139493a441e208086963fb7b6a5eacffdafe451ced9dd757"
+  },
+  {
+    "path": "MIDAS_GIT/VALORACIÓN DE EMPRESAS/Transparencias de Ismael.zip",
+    "bytes": 3088074,
+    "tracked": true,
+    "sha256": "a1632c5bd7be6ebbb3bebe8b7ac7dd8c9395601926845c8b26224ffed9fe70cd"
+  },
+  {
+    "path": "MIDAS_GIT/VALORACIÓN DE EMPRESAS/EJERCICIOS FINANZAS.xlsx",
+    "bytes": 500336,
+    "tracked": true,
+    "sha256": "abb4a9938d082824134256f59057e515e79bb8e8d1b03b9bfdb8caa0199216d0"
+  },
+  {
+    "path": "MIDAS_GIT/VALORACIÓN DE EMPRESAS/VENSIM_User Guide.pdf",
+    "bytes": 1059319,
+    "tracked": true,
+    "sha256": "06d56d1cf8cd9727dd654a02248057797faff0ded62006f515bb0cf457d90eb4"
+  },
+  {
+    "path": "MIDAS_GIT/VALORACIÓN DE EMPRESAS/Transparencias de Ismael/Clase 2 - Finalizar ejercicios analisis inversion y M^0A.pdf",
+    "bytes": 355461,
+    "tracked": true,
+    "sha256": "60ba5c67457e7e7b3256871942d558e2397f557be7bc40dc9f64e63c7d481f8a"
+  },
+  {
+    "path": "MIDAS_GIT/VALORACIÓN DE EMPRESAS/Transparencias de Ismael/Clase 3 - Introduccion a Bolsa.pdf",
+    "bytes": 2131866,
+    "tracked": true,
+    "sha256": "0b3669c60060ca8873a5c28b64cf045877d1b79da3cd0dbc9a1a1432431b7f67"
+  },
+  {
+    "path": "MIDAS_GIT/VALORACIÓN DE EMPRESAS/Transparencias de Ismael/Clase 1.pdf",
+    "bytes": 600287,
+    "tracked": true,
+    "sha256": "231efc6b5a83420d29f1dfde0fc33a5292b8d7a2ada01d9f1d2aa551f775f453"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/.Rhistory",
+    "bytes": 21676,
+    "tracked": true,
+    "sha256": "a4856443071d9e297e3b9576cee274f45318889aa6d8e741365a1fcb44228418"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/resultado semana.xlsx",
+    "bytes": 10360,
+    "tracked": true,
+    "sha256": "1456c22cc8ea62717e4b07c846ba774ccdd74508aa14934c5f7cea90d9ca4c47"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/.DS_Store",
+    "bytes": 6148,
+    "tracked": true,
+    "sha256": "5580fb719c287c842fc453635c71dee28f8102af2a75eaace2740de51448377a"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS_crypto.R",
+    "bytes": 36580,
+    "tracked": true,
+    "sha256": "f0aada89bfbfc8c24d2c1cbb300b247a8487bf2b04a9d4ddba0000c0c0fedd42"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/INVERSIÓN CALCULADA EL 4 DE DIC.xlsx",
+    "bytes": 9682,
+    "tracked": true,
+    "sha256": "1816ad759c82d7d2150ef937ed392303667ad6ba95c4fa4be2788ae2a0068608"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/ANALISIS_MAYOR_REND.ipynb",
+    "bytes": 207573,
+    "tracked": true,
+    "sha256": "a4578920144bc57cbcd5e2cb713e447bd7a772630ffda53af5ab28369fb49521"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/RESULTADOS_INVERSION_SEMANAL.R",
+    "bytes": 5013,
+    "tracked": true,
+    "sha256": "b56d533a04b363d11bcf848c2520e1407d52530a72e13363a35515287ea7817c"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS.R",
+    "bytes": 46260,
+    "tracked": true,
+    "sha256": "ceed1cab67ff15bf1e283deb3e395aba4158b708ee9d99733727d95e6ab7df97"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/back_testing_gap_strategy.py",
+    "bytes": 3560,
+    "tracked": true,
+    "sha256": "6fcfd99a4b56dad49a4b2f35e4ff916815f004e0d1bbaeeca00d4f4b5b84c56d"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/.RData",
+    "bytes": 902143,
+    "tracked": true,
+    "sha256": "04e562df97b9d98264431e74202b559d0742352cd62a921139d4dbed2acd31cb"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/VALORACION_EMPRESAS.py",
+    "bytes": 4661,
+    "tracked": true,
+    "sha256": "3bdd4f0d189a86fff14d9f582a3c2e76588ba6045b78b8ae52ccf53c37d4adcc"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/INVERSIONES.xlsx",
+    "bytes": 39735,
+    "tracked": true,
+    "sha256": "e2e0fb9c75e8248400d6f7f74e96073ea17cb44fcb92093ba7cbc429c13815d2"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2024-01-07.xlsx",
+    "bytes": 539271,
+    "tracked": false,
+    "sha256": "286ce77ed65b216b4681523844eeb4186a2e26ecf0874af7f1a2bafcee61567c"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2024-02-17.xlsx",
+    "bytes": 536311,
+    "tracked": false,
+    "sha256": "c4b80fb8945ee5e62963462d4678c690f52052aa9e27b192660595af96b2e221"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/resultados_modelo.xlsx",
+    "bytes": 35548038,
+    "tracked": false,
+    "sha256": "1a670d1e1a9d3bd53b875fc53f08afd4e766eab16d62336646829c72054e3e80"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2024-01-07.xlsx",
+    "bytes": 32560555,
+    "tracked": false,
+    "sha256": "b73d5698273099bb81291ae6688b62ae5eaf28f3b064e169fada2585f55aae27"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2024-02-17.xlsx",
+    "bytes": 33091591,
+    "tracked": false,
+    "sha256": "05d867aa4fe588e770e1254c13ffd523ad6eaaf1735cac7f605022050ae8a03c"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2024-02-17.xlsx",
+    "bytes": 86326,
+    "tracked": false,
+    "sha256": "c3f9eb6a46cff511ec755755b244102a1f69036248442835bca3b4195db72f03"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2024-01-07.xlsx",
+    "bytes": 84590,
+    "tracked": false,
+    "sha256": "c515f070c07f28392c4cda7461662a4cc3a99704924636e243c4682556881173"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2023-12-30.xlsx",
+    "bytes": 84347,
+    "tracked": false,
+    "sha256": "0480cb626e561a0cc9050ea3c9e8b7e5841dd49e94904afa3209f073e540e026"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2023-12-30.xlsx",
+    "bytes": 32488122,
+    "tracked": false,
+    "sha256": "85180a4af22d1c204ed3e5e898bf6b1b83a21b4d6a6882d90cc6bdb7bb928d63"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2023-12-30.xlsx",
+    "bytes": 538096,
+    "tracked": false,
+    "sha256": "ff5e8376f8617bab3d542e8c7082a21576c56dea593a6ddec8f79478ac499513"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2023-12-10.xlsx",
+    "bytes": 538288,
+    "tracked": false,
+    "sha256": "de236e66fe1f9270a6e3fcfb9b8b8b998e56aa57873a80a8d648554b1f5d613d"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2023-12-10.xlsx",
+    "bytes": 83544,
+    "tracked": false,
+    "sha256": "6a9d4b9f4128ac83b5ff34bd7b23dabd964ab5f113547bd218399e820d0f2a58"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2023-12-10.xlsx",
+    "bytes": 32236081,
+    "tracked": false,
+    "sha256": "694cdc0df585c90cf635e2f130580d836a5dfb3db811a6e1cc7f6fbc95cfc63a"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/datos_modelo.xlsx",
+    "bytes": 123902709,
+    "tracked": false,
+    "sha256": "aef69203314ace8536f2b170982d74f40aa5d3f074d38df3df000b8eb0453c74"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/.DS_Store",
+    "bytes": 6148,
+    "tracked": false,
+    "sha256": "5e63ad035069ff785ced78c720fcd9da5fb2db4193dd17db43d9c30a3bc188dd"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/DATA TRAINING - TESTING.xlsx",
+    "bytes": 10236,
+    "tracked": false,
+    "sha256": "f0130d237dde0ba4a6c3008a228aaf40f9ee761779c982bf5421951d01b65534"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2023-12-16.xlsx",
+    "bytes": 537591,
+    "tracked": false,
+    "sha256": "5196223c37d91d898dec279322420e93454387a60c88b150f44e437bcd5162d0"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2023-12-16.xlsx",
+    "bytes": 83839,
+    "tracked": false,
+    "sha256": "c931e6e00e7788e2565948ececc017e6e64d8852468e1c148a091a93b4250149"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/rend_stocks_data.xlsx",
+    "bytes": 79355982,
+    "tracked": false,
+    "sha256": "41ab567a0e003d4160c6175dd8f7e3093f262da159a6690b8431f24d09479643"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2023-12-16.xlsx",
+    "bytes": 32327785,
+    "tracked": false,
+    "sha256": "2bf78f0924c259078d0fdf9475f550ecd8418a38292c13119566750f7a8f8a2a"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2024-01-21.xlsx",
+    "bytes": 32728074,
+    "tracked": false,
+    "sha256": "fb7ffbec06c3c470ae0537b9a92dcfe693b78c6217175841a10c908c30317ebf"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/RESULTADOS.pbix",
+    "bytes": 161889681,
+    "tracked": false,
+    "sha256": "09b1ce62d6c75d93a1a0ecf4bb8df247896c63a04d86fe44847296d9665c99e9"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2024-01-21.xlsx",
+    "bytes": 85171,
+    "tracked": false,
+    "sha256": "d205e4e37e54d08e035f93fc2fb52d19a7a7af950f7bfd4f2ea9da3639eff157"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2024-01-21.xlsx",
+    "bytes": 538121,
+    "tracked": false,
+    "sha256": "6cb44048d74c20221cc9e32bd4ceca82c832f47fa4659a4b0b3d63c23478a619"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2024-03-10.xlsx",
+    "bytes": 33362921,
+    "tracked": false,
+    "sha256": "dc5f637c9a0fce0c5efceda82331a65c5c7e54c20fa5c7179102771668148792"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/cierres_transp.xlsx",
+    "bytes": 27242942,
+    "tracked": false,
+    "sha256": "cbe77f6870da7f805ea4f4c1dc411b6ec8bae9fbf98fc376353796b19a599e33"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2024-03-10.xlsx",
+    "bytes": 87182,
+    "tracked": false,
+    "sha256": "3aee5bdb38f8a01542ec92177763740b5d2af17dc94b61345b79a65cb739151c"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2024-03-10.xlsx",
+    "bytes": 537654,
+    "tracked": false,
+    "sha256": "7cbf102fab3daa12a0800298b5761e871f69107b71f2db6f835fe88f4080b394"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2024-02-10.xlsx",
+    "bytes": 86042,
+    "tracked": false,
+    "sha256": "d8a76a056057d15671118d97fc5ec6be6c6a2e1cd5d28de29c8789fdff67f949"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2024-02-10.xlsx",
+    "bytes": 33000141,
+    "tracked": false,
+    "sha256": "8c9d9cacf3170f62ed573d9a712eab3af841594701c89fb4994d65e6649252de"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2024-02-10.xlsx",
+    "bytes": 536948,
+    "tracked": false,
+    "sha256": "7e46b730e6f7eaedbbdc11206f92a28780e8c12ba8de568c96b262a4b340252d"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/ESTIMACIONES.xlsx",
+    "bytes": 13955,
+    "tracked": false,
+    "sha256": "3e09211ab79525e8e0321d14c311d598babe568c1570fc52ca343d5621c8c7a0"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/datos_modelo_semana_actual.xlsx",
+    "bytes": 368657,
+    "tracked": false,
+    "sha256": "c1369cfdb43d1ac911e113d0a9528cccb2c8f4cf7514636f6e49f61cf3422218"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2023-12-02.xlsx",
+    "bytes": 537074,
+    "tracked": false,
+    "sha256": "00674fac52367d33711afdef158d8f68b3f58c468b664b2877dcdb46c521c0ee"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2023-11-12.xlsx",
+    "bytes": 391904,
+    "tracked": false,
+    "sha256": "b92d26f5a0f92ea5418d51d130a5785c41150e44a08b3c7d9dfdf826392ae419"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2023-12-02.xlsx",
+    "bytes": 83240,
+    "tracked": false,
+    "sha256": "a337a518334eeb3a6343c5bb3be577849ff103551128d08a1c6ed45cef38edae"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2023-12-02.xlsx",
+    "bytes": 37387338,
+    "tracked": false,
+    "sha256": "5c42e77583aa36d6d90c6ba3326dec23d121130f949a92e10842390202dcaef8"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2024-01-14.xlsx",
+    "bytes": 84885,
+    "tracked": false,
+    "sha256": "f176cda4911263d7edf6174ef641e010a2d556ff1ba9d9e83e0f612ff755b055"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2024-01-14.xlsx",
+    "bytes": 32651484,
+    "tracked": false,
+    "sha256": "bc5f3985db9b29027c805bd90906b17b6d848ba6e4329e7b360298eebb928f32"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2024-01-14.xlsx",
+    "bytes": 537771,
+    "tracked": false,
+    "sha256": "dcac2a32522f9d8a18f68302643321a5cd6cfd8ae7e78cd6dc09d18a776d93d4"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2023-11-25.xlsx",
+    "bytes": 82965,
+    "tracked": false,
+    "sha256": "a715c38ea95aa330562266c35ddbfb78c24c458e450b50d71f860f124ca34d0b"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2023-12-23.xlsx",
+    "bytes": 537779,
+    "tracked": false,
+    "sha256": "dc12f58970422dc29ae1f5246ea298d1ebc115eb69ea7c1d2bc60fd2e16ade45"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2023-11-25.xlsx",
+    "bytes": 32052608,
+    "tracked": false,
+    "sha256": "ad13327dc6171f19b372ef827cb5ecbbb3f0d42057f09dde4261be1931294a87"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2023-12-23.xlsx",
+    "bytes": 32418268,
+    "tracked": false,
+    "sha256": "4214d93861b6c0f26714f5023507000e008058a5b0f81f0f1805ff5869f22f51"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2023-12-23.xlsx",
+    "bytes": 84143,
+    "tracked": false,
+    "sha256": "8cf3a9572207f21077479b8997267bffbf4f71041d015ac361ef51ccfdfb5388"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2023-11-25.xlsx",
+    "bytes": 537183,
+    "tracked": false,
+    "sha256": "76ce1795324a86a22edf8b9c21aceeb61a53f05c8b2a960f86ca14847649a86c"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_etoro_excel.xlsx",
+    "bytes": 292394,
+    "tracked": false,
+    "sha256": "eb882e8c73247c3a5cce775b7bca64ca03a48b87b57df93afcf8b4e8e43a73da"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2024-02-03.xlsx",
+    "bytes": 537228,
+    "tracked": false,
+    "sha256": "341b09b5506484409080997b7cc005d8f4831a550ca004e66ea2327c1bc415ad"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2023-11-18.xlsx",
+    "bytes": 584153,
+    "tracked": false,
+    "sha256": "9bcee0d6079bcb57d84a9bd13baa3a4d6b10c1f2bd101a9805c9ed8892129ccc"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2024-02-03.xlsx",
+    "bytes": 32909059,
+    "tracked": false,
+    "sha256": "3a2416be84ec322dc181c4d8bf7c0ccaa96ec2c63b76268214db7640aec4b1b4"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2024-02-03.xlsx",
+    "bytes": 85744,
+    "tracked": false,
+    "sha256": "255bd9da63c7aa0329dcebaa81523c275ffd714aa31cbbd4c1361ce757fff43a"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/etoro_list.csv",
+    "bytes": 355076,
+    "tracked": true,
+    "sha256": "591a79018e698cf0980a4c33698943a8ec7ad11d6d2940575459c744730dbb31"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/rend_index_data.xlsx",
+    "bytes": 221511,
+    "tracked": false,
+    "sha256": "06ba9f1dafbe383ce0d26fdd8a704ac86817d866aec2fd22552bc6c13942cea0"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/stocks_data_2024-01-28.xlsx",
+    "bytes": 32818451,
+    "tracked": false,
+    "sha256": "34447783c9ab380e3cf72d69a0a0dd9acb27551346e31b2955265e15d449c782"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/index_data_2024-01-28.xlsx",
+    "bytes": 85453,
+    "tracked": false,
+    "sha256": "94c9c83133b6e009c4f4d2a410d4511e304f4b30c23ffb43edcaa2938044e63e"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/predicciones_semana_2024-01-28.xlsx",
+    "bytes": 538430,
+    "tracked": false,
+    "sha256": "f87966064fd6708e95b0644e7da4370e0c962bd677375add11201cbc941725a7"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2024-01-14.xlsx",
+    "bytes": 95143,
+    "tracked": false,
+    "sha256": "c5f797ab99641ec3679695243236b352d7648a66cb639b2e48094d5da260352a"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2023-12-23.xlsx",
+    "bytes": 50535,
+    "tracked": false,
+    "sha256": "a01c648678b81cde5c57d941aae9ba70f74dcdfbed7eaffccdb059ea4f363191"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2024-01-28.xlsx",
+    "bytes": 89693,
+    "tracked": false,
+    "sha256": "4f942a09a0187c987fd50fab026215fd5e12de7d46a0a96b9b5c3a8b93c49b8d"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2024-02-03.xlsx",
+    "bytes": 91278,
+    "tracked": false,
+    "sha256": "99ac9718f58dceff7e0501deffee735b72c873e96a25aed9dabd408556026cd5"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas valoradas_2023-12-15.xlsx",
+    "bytes": 27234,
+    "tracked": false,
+    "sha256": "edffb379dad5ed619d742c787ae868fc19bfcde8d2da3ff4b1c2ff061166b928"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2024-01-07.xlsx",
+    "bytes": 91584,
+    "tracked": false,
+    "sha256": "67e97758c8901f9acf893de1643370a24c86592699a2527a01736ca02ae844a9"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2024-02-17.xlsx",
+    "bytes": 84403,
+    "tracked": false,
+    "sha256": "31ba20717d896ab09a568456d698cd611227d887ee500ffae80d659be45e54c8"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2023-12-30.xlsx",
+    "bytes": 89503,
+    "tracked": false,
+    "sha256": "149ac02d5b8c1b09f055e2e41f56fa2668a977d28bd219979a54866a6e58f08b"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2024-02-10.xlsx",
+    "bytes": 93623,
+    "tracked": false,
+    "sha256": "d7a655c21a1e0990c7aa790f0ab15a496d3514103891d71be880554004a879a9"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2024-03-10.xlsx",
+    "bytes": 90754,
+    "tracked": false,
+    "sha256": "ad39e567413e2fcab575f6978557b522fe8e7028585ccc4685c180e8930b6226"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2023-12-16.xlsx",
+    "bytes": 95764,
+    "tracked": false,
+    "sha256": "01f0c6aac26b311f651472560e82d6f396449e0d561ab076f1ba07a39a649d6c"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/VALORACIÓN FUNDAMENTAL/Empresas seleccionadas_2024-01-21.xlsx",
+    "bytes": 91673,
+    "tracked": false,
+    "sha256": "edface44f40c19cd55f5db7e13e4cb3953785dda4dbcb9e2857d0eb52886cf8f"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2024-01-28.xlsx",
+    "bytes": 12820,
+    "tracked": false,
+    "sha256": "0f127322da10fddb67e68dde1dcf2a6d91a5ff10a6863499264c6625daf5955f"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2024-02-03.xlsx",
+    "bytes": 12887,
+    "tracked": false,
+    "sha256": "d857ef4e84047ec61a89848b7a59e5b9cb3c9e6492f5ee4127fd2effe2ac8721"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2023-11-25.xlsx",
+    "bytes": 12849,
+    "tracked": false,
+    "sha256": "d3cea9e4b60e78357509c0ecee06723c1e269a60262ff532551ac5952748decc"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2023-12-23.xlsx",
+    "bytes": 9257,
+    "tracked": false,
+    "sha256": "6a3b5415b09a3957eb2bfefb65052a49bd264e431294f57e2ec12f830c057919"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2024-01-14.xlsx",
+    "bytes": 12822,
+    "tracked": false,
+    "sha256": "33b64f871d6387b4eafdd1443553dcdb60e222d7bca529049b7a9889fa47ae79"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2023-12-02.xlsx",
+    "bytes": 12842,
+    "tracked": false,
+    "sha256": "33449a6a8a9ceaef1500b85a66cb97a0e5e786be6093e01cea56f1633c117c75"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2024-02-10.xlsx",
+    "bytes": 12892,
+    "tracked": false,
+    "sha256": "ba8f3e2219e9cd5338175acce751900e07f65aad2e66135a943a62dba0d6dae6"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2024-03-10.xlsx",
+    "bytes": 12854,
+    "tracked": false,
+    "sha256": "7de7268a0db040c955e8ffbbfeecdcc210ded80e57d10eba4d549fc6ee0b203a"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2024-01-21.xlsx",
+    "bytes": 12785,
+    "tracked": false,
+    "sha256": "c5596ca0c28673f4afc7371ba02df77a7bbcad739f60976304d399bccd9dfb6f"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2023-12-16.xlsx",
+    "bytes": 11632,
+    "tracked": false,
+    "sha256": "004f69e6bcb4f25a3891dbe03aee0aee80c92d90b314b1e6ef209de1752fdfed"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2023-12-10.xlsx",
+    "bytes": 12857,
+    "tracked": false,
+    "sha256": "26fe3bf6bcded8eb1049477c76c4187d20a1fd0c21b4b5171878c9e98f85df2d"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2023-12-30.xlsx",
+    "bytes": 12823,
+    "tracked": false,
+    "sha256": "c4738d384dc47c073e117c7f5d0c92cd5dc201cfc130f949cf3e6906b58f9257"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2024-02-17.xlsx",
+    "bytes": 12804,
+    "tracked": false,
+    "sha256": "1d15624b7c0fd302ac5d22b91fb4c315d58a55144e722ae684e98f207c861af2"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/DATOS/INVERSIONES/mejores_empresas_2024-01-07.xlsx",
+    "bytes": 12894,
+    "tracked": false,
+    "sha256": "2a5c60dceca05173a1a39d32c9fd2f7212a0ecea7255f2b0af734cc97f431845"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/SIMULACIONES PASADAS/RESULTADOS SIMULACIÓN.xlsx",
+    "bytes": 368683,
+    "tracked": true,
+    "sha256": "bdfc50dce6b2d5c7e00566c712b566df1db63d23ef73b9ec262026b2d7f7ced7"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/SIMULACIONES PASADAS/CODIGO_TFG_simulacion.R",
+    "bytes": 52866,
+    "tracked": true,
+    "sha256": "00d53595fe7a5cb79200e96fe759ef1c33b5a36243690cffd480e10d6c2cba1d"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/TRADING_VIEW/midas.png",
+    "bytes": 231513,
+    "tracked": true,
+    "sha256": "04e08d1daf64889494be3040ab01c900b550f94384d9fa9ed5bf4953f9fd41ee"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/SCRAPING YAHOO FINANCE/scrap_e_toro_OBSOLETO.py",
+    "bytes": 2460,
+    "tracked": true,
+    "sha256": "d627ec6f79f44620a47a4060c61e2ec28a6c36e9ac0507499fa5d33fe70757e7"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/SCRAPING YAHOO FINANCE/SCRAPER_YAHOO_FINANCE.py",
+    "bytes": 30779,
+    "tracked": true,
+    "sha256": "f8edefab7479bd63cee8978b25c9e985480fd3beec1f23ca0597b4338620e55a"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/SCRAPING YAHOO FINANCE/SCRAPER_YAHOO_FINANCE_2025.ipynb",
+    "bytes": 97750,
+    "tracked": true,
+    "sha256": "84ae5c65164f4d1fde15e9df939fa31425e8f9ce27d53ae376fc2ccca4ffb9fa"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/prueba_backtesting.py",
+    "bytes": 3376,
+    "tracked": true,
+    "sha256": "80930055a52b3197c22c4ca909bf5e5cedf8746e3a26ed604ae3bf960bf8637f"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/.DS_Store",
+    "bytes": 6148,
+    "tracked": true,
+    "sha256": "be24b95fe8a7c5c6d950c0b55337e2cf9c71f3304d2d269cb5661fe5f766a64c"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/midas.rtf",
+    "bytes": 48692,
+    "tracked": true,
+    "sha256": "000b076b539e6cf8e93c39b58918c53f4dc10969b92023268efe474ae1f2d891"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Flappy birds AI/CONFIG file.txt",
+    "bytes": 2477,
+    "tracked": true,
+    "sha256": "705307690c476a8c52f2e6e9976703548b805f61e58d3cc839ea104ed2cf3e99"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Flappy birds AI/Flappy birds AI.py",
+    "bytes": 6351,
+    "tracked": true,
+    "sha256": "d193c5af5aa317b9bd78e0fe07498343f5f296c13af5ef4873d5c55830de2bc8"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Flappy birds AI/imgs/base.png",
+    "bytes": 470,
+    "tracked": true,
+    "sha256": "8afccfb7030e32c736c6433fc48990aa5b47332ddf184206e4e570fdc600f083"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Flappy birds AI/imgs/bird1.png",
+    "bytes": 427,
+    "tracked": true,
+    "sha256": "8f0f7372cbfcf5d663077f28377d033807360b33cdfbd2f220bb84fea27a1131"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Flappy birds AI/imgs/pipe.png",
+    "bytes": 2527,
+    "tracked": true,
+    "sha256": "8a3fb1ec2fcc5b899a02af626dd6c7e52138faf3dfd64d5dce4b4e028b503edb"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Flappy birds AI/imgs/bird2.png",
+    "bytes": 425,
+    "tracked": true,
+    "sha256": "09b80bf4f6f51b4ef421c459fb6140eb0ece14ccb74d637559b50134354c7bbf"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Flappy birds AI/imgs/bird3.png",
+    "bytes": 426,
+    "tracked": true,
+    "sha256": "9c691e789dcb75158b24642d3d902bf918b7be259c5df6b8e504665b32fef860"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Flappy birds AI/imgs/bg.png",
+    "bytes": 7026,
+    "tracked": true,
+    "sha256": "472c806b3caea5f65e9059e6b2ae1a5bb8728deeab38b65c83eb14e693b56921"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Easier more dificult/Easier more dificult.py",
+    "bytes": 4918,
+    "tracked": true,
+    "sha256": "9f65cfd29ac8fc0f5412b53ae957f47331804625985c8e433ed95cf14f40fd7a"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Easier more dificult/CONFIG file.txt",
+    "bytes": 2478,
+    "tracked": true,
+    "sha256": "32924a998bf52d40d547d3987abb85502ccbdcc00fe10632f68c105ef2a63b63"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_1_20241222_212750.xlsx",
+    "bytes": 18404,
+    "tracked": true,
+    "sha256": "4624decd93b8f99b608721e952793bb29173dd1271a23d793f0be217674d1ea1"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_9_20241222_225113.xlsx",
+    "bytes": 18404,
+    "tracked": true,
+    "sha256": "53b20ddd487574fab98100dd80a2e5c0c8c022caff4c6346d15fcfdce2624c70"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/stocks_data.xlsx",
+    "bytes": 134146,
+    "tracked": true,
+    "sha256": "af829373fa3d74cdf8050a53111d39b161ad6d1b7dab96c3131e187cdd40733e"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_4_20241222_214742.xlsx",
+    "bytes": 18416,
+    "tracked": true,
+    "sha256": "e59f3d3e2c8ea99ad0d9895142aaa219ee6a6a83be76815dc238b59476fb97b4"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/stock_data_ordenado.xlsx",
+    "bytes": 548614,
+    "tracked": true,
+    "sha256": "6c6401e3ef08c9a0a818c406397965dcc29274f3f1cc37275e7186e12a2fe05d"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_concatenados.xlsx",
+    "bytes": 150285,
+    "tracked": true,
+    "sha256": "dd1294bb8928e4ef08d1a9fa0f174f8a2b4c2c1f7a9ffca45b127113ab0bc380"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_3_20241222_214125.xlsx",
+    "bytes": 18364,
+    "tracked": true,
+    "sha256": "5d8e562b925f1f9a6acc327b379956a401f9f70bd55d847e452d678e43f962bc"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_2_20241222_213409.xlsx",
+    "bytes": 23132,
+    "tracked": true,
+    "sha256": "03db6af2770eb0622fa6944391a7777cb50a4011192d2e9bebb4439413a6fb58"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_8_20241222_224428.xlsx",
+    "bytes": 18409,
+    "tracked": true,
+    "sha256": "3fca4c6134c18dca8c3a1e922ac0e0a7c180c9fefe12c719ac73f3c4ca2781ad"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_6_20241222_223148.xlsx",
+    "bytes": 18506,
+    "tracked": true,
+    "sha256": "aadaebaf525af5beb07c328a913b74c0cac21308864c3e3ba717a1b9a85e8a67"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_10_20241222_225708.xlsx",
+    "bytes": 18449,
+    "tracked": true,
+    "sha256": "2c53f0adb023a5a8a0d9f9074c829786f2a0c8c98948155f315f8719ebf98746"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_7_20241222_223806.xlsx",
+    "bytes": 18320,
+    "tracked": true,
+    "sha256": "db66c310783dd5574d365f2e59db56df65d3087ab5c1188674116ca015554a42"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/CÁLCULO DE LA RENTABILIDAD YTD DE EMPRESAS/resultados_df_5_20241222_222245.xlsx",
+    "bytes": 18300,
+    "tracked": true,
+    "sha256": "b26b0999a6b81d09c1bad4f37b1a68e5117917396af993c8264f338161124bca"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/modelo_pre.pkl",
+    "bytes": 23354326,
+    "tracked": true,
+    "sha256": "9b62e2b42f586e9763b8235da127b2618ff761bb7e510875330f6f50b4854bd8"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/TRAIN_MIDAS_v3.py",
+    "bytes": 20270,
+    "tracked": true,
+    "sha256": "bed41b74618ddec82323d9a55165423a5a0287c6d5e72b1b960e5462503e9668"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/TRAIN_MIDAS_v2.py",
+    "bytes": 19062,
+    "tracked": true,
+    "sha256": "bdebf0202c57bd1f291202cfbc6e21754680aacbeaa20c7e8f5d47fba900afa1"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/INFERENCE_MIDAS_v2.py",
+    "bytes": 4445,
+    "tracked": true,
+    "sha256": "f48c7a90f2c24567fb59e0f0bd3a87e34a6371f834d3d206d74a3f5340de7bdd"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/MIDAS_v2.py",
+    "bytes": 56334,
+    "tracked": true,
+    "sha256": "a5848cdb50221145995ac815a67673505f6c937dad4910b748f05b5de5796e7b"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/EJECUCIÓN_MIDAS.py",
+    "bytes": 3436,
+    "tracked": true,
+    "sha256": "b41f2476bd7c909c379899f8b66649f85e0d668ea21600a2e29a529d909bcec2"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/modelo_dif_pre.pkl",
+    "bytes": 24919531,
+    "tracked": true,
+    "sha256": "0ec34061d4ea7209ca5a46bb31dc5324069c61b4f820fc1208696f57a775803b"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/modelo_bin.pkl",
+    "bytes": 23478649,
+    "tracked": true,
+    "sha256": "1fcc453840c6198d20c2e9a6921f08d62117bc45d91f9d8c8c5d76687cd83cc4"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/MAIN_MIDAS_v2.py",
+    "bytes": 41402,
+    "tracked": true,
+    "sha256": "5771e2f2b3183fc84ab2e6654c96ffc4c5f4de9a554b478e64ab2588a7fc62fb"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/FUNDAMENTAL_MIDAS.py",
+    "bytes": 7096,
+    "tracked": true,
+    "sha256": "f9d82aa63c924e4414963b0faba02bc5308fb530c38e1606dd2bc2c7b438d748"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/modelo.pkl",
+    "bytes": 24607459,
+    "tracked": true,
+    "sha256": "e950be70c22bfea7d910681896951a73f7b2a7f9b5d30a5fc9c13936cf0d8510"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/PREPROCESSING_MIDAS_v2.py",
+    "bytes": 8752,
+    "tracked": true,
+    "sha256": "54a58329986b8d3a7a9c961962ec9bf26cf249b438c445a91e3ff626067153ba"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/BORRADORES/MIDAS_crypto.R",
+    "bytes": 36580,
+    "tracked": true,
+    "sha256": "f0aada89bfbfc8c24d2c1cbb300b247a8487bf2b04a9d4ddba0000c0c0fedd42"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/BORRADORES/MIDAS.R",
+    "bytes": 47797,
+    "tracked": true,
+    "sha256": "f59a7a05604ac6e7f1b42de5c82ac5721c6c5fb962055ec7d1665dd1ab4e827b"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/BORRADORES/MIDAS_v2_1.py",
+    "bytes": 45229,
+    "tracked": true,
+    "sha256": "5c4cf30d2594c3dfb02311e4f3f230b96c823e7ac392c2c6159e8396efb48731"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/__pycache__/MAIN_MIDAS_v2.cpython-311.pyc",
+    "bytes": 37729,
+    "tracked": true,
+    "sha256": "880dc87b0c09950fdf3ee11c916a6278fa69fc782926d66c2b747366b0818a9c"
+  },
+  {
+    "path": "MIDAS_GIT/TRADING/Turtle Trading Strategy Codes.txt",
+    "bytes": 1463,
+    "tracked": true,
+    "sha256": "18315ba17f1ec028068fc8298cac379a5d67940e78ffa2a8ca275e8201f53e95"
+  },
+  {
+    "path": "MIDAS_GIT/TRADING/sp500_analysis.py",
+    "bytes": 4884,
+    "tracked": true,
+    "sha256": "003736aa767a41c5d0f90887288a7061c486787afb4db742a9ebb800d06632e1"
+  }
+]

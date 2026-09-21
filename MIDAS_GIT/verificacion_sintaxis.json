@@ -1,0 +1,86 @@
+[
+  {
+    "path": "AGENTE/genetic_invest_agent/genetic_agent.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "AGENTE/genetic_invest_agent/sp500_portfolio_agent.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "AGENTE/genetic_invest_agent/test_agent.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "AGENTE/markowitz_portfolio/markowitz_analysis.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Easier more dificult/Easier more dificult.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/Flappy birds AI/Flappy birds AI.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/IA/prueba_backtesting.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/BORRADORES/MIDAS_v2_1.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/EJECUCIÓN_MIDAS.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/FUNDAMENTAL_MIDAS.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/INFERENCE_MIDAS_v2.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/MAIN_MIDAS_v2.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/MIDAS_v2.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/PREPROCESSING_MIDAS_v2.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/TRAIN_MIDAS_v2.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/TRAIN_MIDAS_v3.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/SCRAPING YAHOO FINANCE/SCRAPER_YAHOO_FINANCE.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/SCRAPING YAHOO FINANCE/scrap_e_toro_OBSOLETO.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/VALORACION_EMPRESAS.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/back_testing_gap_strategy.py",
+    "syntax": "ok"
+  },
+  {
+    "path": "MIDAS_GIT/TRADING/sp500_analysis.py",
+    "syntax": "ok"
+  }
+]

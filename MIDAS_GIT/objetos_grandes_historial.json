@@ -1,0 +1,107 @@
+[
+  {
+    "oid": "97471b0ded88b9421bf97b754d57744de675f24d",
+    "bytes": 84606641,
+    "path": "AGENTE/orquestador_viral_youtube/data/video_largo.mp4"
+  },
+  {
+    "oid": "b2b1f55029481a8038ea52972ab69228bb568cef",
+    "bytes": 60101815,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_34.mp4"
+  },
+  {
+    "oid": "a94fbfecc56ed2dfde2f68c04b81c43b766ca4c7",
+    "bytes": 57948850,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_16 - Parte 2. Capítulo 8.mp4"
+  },
+  {
+    "oid": "812305846a107bd9b9dac2ab33b8e40c9b154c83",
+    "bytes": 53646131,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_17 - Parte 2. Capítulo 9.mp4"
+  },
+  {
+    "oid": "3e354aa81e7cb2963f045d26795e22db8653ac60",
+    "bytes": 52671016,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_01 - Parte 1. Capítulo 1.mp4"
+  },
+  {
+    "oid": "9365f865698cfbc0033c6875eb92a9dcb153ed3d",
+    "bytes": 51199155,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_15 - Parte 2. Capítulo 7.mp4"
+  },
+  {
+    "oid": "fcedd78ec509659f6b3d989f87e18c432f4e5fc8",
+    "bytes": 51009772,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_18 - Parte 2. Capítulo 10.mp4"
+  },
+  {
+    "oid": "fa9531b9ebcb86ad46135ef0873de09c26fc3d29",
+    "bytes": 41337927,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_1. Nadie está loco.mp4"
+  },
+  {
+    "oid": "7b92fade8650ad8aa965cf65eb7728f9ed36106b",
+    "bytes": 39966833,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_3. No tener nunca suficiente.mp4"
+  },
+  {
+    "oid": "86aca044d1b84acb046a05797989562bd4fe968e",
+    "bytes": 39745570,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_4. La confusión del interés compuesto.mp4"
+  },
+  {
+    "oid": "84298ecdc00fbfd1ce793d8cfe7ac3c31cadfc21",
+    "bytes": 38639483,
+    "path": "AGENTE/orquestador_viral_youtube/data/clips/comodin.mp4"
+  },
+  {
+    "oid": "6eaa000b31c7659f3d1c0c23c185dcc6bc2a093b",
+    "bytes": 35122843,
+    "path": "AGENTE/orquestador_viral_youtube/data/clips/comodin.mp4.part"
+  },
+  {
+    "oid": "3eed0ac1926e625be0ff99ba7333ecd977904e07",
+    "bytes": 30712065,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_2. Suerte y riesgo.mp4"
+  },
+  {
+    "oid": "9bb5ac844da2f4b4bb747cd7624fb18000d86321",
+    "bytes": 30365755,
+    "path": "AGENTE/LIBROS_YOUTUBE/data/video_5. Hacerse rico frente a conservar la riqueza.mp4"
+  },
+  {
+    "oid": "5d6e3a6bce6d19ec38ce9a7710c339fb9e69bee0",
+    "bytes": 24919531,
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/modelo_dif_pre.pkl"
+  },
+  {
+    "oid": "e7e797e4853b97bca03d4f4e0d242d82adb68ee8",
+    "bytes": 24607459,
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/modelo.pkl"
+  },
+  {
+    "oid": "d0789c90b4938eceda0c29629f67f1dce0cce93e",
+    "bytes": 23478649,
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/modelo_bin.pkl"
+  },
+  {
+    "oid": "fccc8a2e827abd8e377e4b8944d831161926264c",
+    "bytes": 23354326,
+    "path": "MIDAS_GIT/SIMULACIONES INVERSIONES/MIDAS/modelo_pre.pkl"
+  },
+  {
+    "oid": "d30aec8f81062dc46ebefa335b7bd9479bf0d380",
+    "bytes": 20998672,
+    "path": "AGENTE/LIBROS_YOUTUBE/venv/lib/python3.9/site-packages/cryptography/hazmat/bindings/_rust.abi3.so"
+  },
+  {
+    "oid": "6fe4363743e16ea643a6436dce5a6d7209470e93",
+    "bytes": 20188276,
+    "path": "AGENTE/orquestador_viral_youtube/data/video_short.mp4"
+  },
+  {
+    "oid": "bc4cdab945d22d01ceefc8557400eb96e4d5071b",
+    "bytes": 11886208,
+    "path": "ATENEA/versiones/atenea-espana-en-datos-sankey-implementation/.venv/lib/python3.9/site-packages/cryptography/hazmat/bindings/_rust.abi3.so"
+  }
+]
